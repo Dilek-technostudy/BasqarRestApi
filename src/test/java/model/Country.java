@@ -1,6 +1,16 @@
 package model;
 
 public class Country {
+    private String id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     private String name;
     private String code;
 
